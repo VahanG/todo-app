@@ -1,0 +1,18 @@
+.column {
+    display: inline-grid;
+    padding: 50px;
+    border-right: 3px solid black;
+}
+
+.item-name {
+
+}
+
+.item {
+    margin-bottom: 15px;
+    border: 1px solid #ff5a4d;
+}
+
+.action {
+    cursor: pointer;
+}

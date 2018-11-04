@@ -14,9 +14,9 @@ services:
       volumes:
         - ./api/:/src
       environment:
-        - NODE_ENV=DEV
+        - NODE_ENV=NOT_DEV
       ports:
-        - "9229:9229" #for inspector
+        - "9229:9229"
     nginx:
       build: ./nginx
       links:
