@@ -14,4 +14,5 @@ ADD . /src
 #EXPOSE 8088
 
 # Run app using node (nodemon on dev)
-CMD ["/bin/sh", "start.sh"]
+#CMD ["/bin/sh", "start.sh"]
+CMD ["node", "index.js"]
